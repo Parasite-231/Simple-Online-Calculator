@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Calculator</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body >
+    <marquee behavior="slide" direction="left">
+        ***A SIMPLE CALULATOR***
+    </marquee>
+    <script>
+    
+      var numberA = prompt("Press the First number:")
+      var numberB = prompt("Press the Second number:")
+
+      //converting the string to float
+      numberA  = parseFloat(numberA , 10)
+      numberB = parseFloat(numberB , 10)
+
+      var addition, subtraction , multiplication, divison , remainder
+
+      addition = numberA + numberB 
+      document.write("Addition       : " + numberA +  " + " + numberB + " = "+addition + "</br>")
+      
+      //br tag used for shifting to new line
+      subtraction = numberA - numberB 
+      document.write("Subtraction    : " + numberA +  " - " + numberB + " = "+subtraction +"</br>")
+
+      multiplication = numberA * numberB
+      document.write("Multiplication : " + numberA +  " X " + numberB + " = "+multiplication + "</br>")
+
+      divison = numberA / numberB
+      document.write("Divison        : " + numberA +  " ÷ " + numberB + " = "+divison + "</br>")
+        
+      remainder = numberA % numberB
+      document.write("Remainder      : " + numberA + " mod " + numberB +" = "+remainder + "</br>")
+
+    </script>
+    
+</body>
+</html>

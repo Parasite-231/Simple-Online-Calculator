@@ -1,0 +1,13 @@
+body{
+    padding-left:350px ;
+    margin-left: 470px;
+    margin-right: 350px;
+    padding-right: 150px;
+    border-style: double;
+    border-color: chartreuse;
+    border-width: 10px;
+    color: aqua;
+    background-color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
